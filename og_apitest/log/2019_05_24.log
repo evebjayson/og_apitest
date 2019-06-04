@@ -1,0 +1,12 @@
+[2019-05-24 18:04:39,319] - logger.py] - INFO: 响应的内容：{'status': 'success', 'data': {'token': 'RTlNUHZ04fwGg7KyAmok9oS9XM91HxQpO9cJrLkyIFkZt760WpTAxaUpCoiukTSODKn9BL8Zoxl9ex8TXs6cNvJDxDTSF1Et0IZF'}}
+[2019-05-24 18:04:39,336] - logger.py] - INFO: 返回的状态码：200
+[2019-05-24 18:04:39,340] - logger.py] - INFO: --------start--------
+[2019-05-24 18:04:39,348] - logger.py] - INFO: ---------test is pass---------
+[2019-05-24 18:04:39,354] - logger.py] - INFO: ---------end---------
+[2019-05-24 18:29:18,450] - logger.py] - INFO: 响应的内容：{'status': 'success', 'data': {'token': '3o8UcC2RDIBwoyao7SzviUO4tZvdYVocrocSi37YWEddhy236zT5iYOZuSxN0Nu62Nx77xR1GEkHMD8iOkpgb1jvH8CwAonqYJR0'}}
+[2019-05-24 18:29:18,462] - logger.py] - INFO: 返回的状态码：200
+[2019-05-24 18:30:47,126] - logger.py] - INFO: 响应的内容：{'status': 'success', 'data': {'token': 'D5vfOlh8l7kGJXEkln1D13antpPHetS3MG4HDVNS4r7j04VwXTxxh06wBQLmUBKb9DpoFgedOoLLs4rV3M6CYgYpG42OISk2QS1X'}}
+[2019-05-24 18:30:47,142] - logger.py] - INFO: 返回的状态码：200
+[2019-05-24 18:30:47,149] - logger.py] - INFO: --------start--------
+[2019-05-24 18:30:47,157] - logger.py] - INFO: ---------test is pass---------
+[2019-05-24 18:30:47,167] - logger.py] - INFO: ---------end---------

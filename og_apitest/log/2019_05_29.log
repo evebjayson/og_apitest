@@ -1,0 +1,63 @@
+[2019-05-29 09:15:43,817] - logger.py] - INFO: ----------test is start----------
+[2019-05-29 09:15:43,902] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/game-providers/34/play
+[2019-05-29 09:15:43,908] - logger.py] - INFO: 请求的参数为: {'params': {'key': '67a17dd934c01fffcf1190370e4ecec60fc12b779817f8818a966a9d0f5941be7c0c1252b64f40a87eb45b999770e763b50fa1f490b99564f18f9672428ce605a4316b6393d06d6affc26611'}, 'headers': {'x-token': 'xIKWFKI0OeZFQxPdkI7q48YpX3GqCEScK3bB3g3Eu1VX6Toi8WuqOem8KEoDlZo7Ao7S03U7csDd8Ew3bbFY5B1yGBoXQpMVmK3r'}}
+[2019-05-29 09:15:43,914] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"url":"https://demoh5.happy968.com/index.html?account=70312_SEQC_MARSQC&token=eyJkYXRhIjoiNzAzMTJfU0VRQ19NQVJTUUMiLCJjcmVhdGVkIjoxNTU5MDkyNTQzLCJleHAiOjE1MH0=.inrRMO/d4LMmwpE/DAv4ohn5RliH4eRTogZie2UG+Bo=&lang=en_us&gameId=0"}}
+[2019-05-29 09:15:44,054] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-29 09:15:44,174] - logger.py] - INFO: ----------test is pass----------
+[2019-05-29 09:15:44,179] - logger.py] - INFO: ----------test is end----------
+[2019-05-29 11:14:08,173] - logger.py] - INFO: ----------test is start----------
+[2019-05-29 11:14:08,248] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/game-providers/34/balance
+[2019-05-29 11:14:08,269] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'balance': 1, 'action': 'in'}, 'headers': {'Content-Type': 'application/json', 'x-token': 'HQio2so3qFWBLCFbmhEQuwatvcCZySeGW5iL17XakcZZtbqv1rNYLSro9ZuLOyPT43nwdUHe0Ce9R43sz0qZFXnoppGUQHfwEP8O'}}
+[2019-05-29 11:14:08,277] - logger.py] - INFO: 响应内容为: {"status":"error","data":{"message":"Missing parameter."},"meta":{"username":"must not be empty."}}
+[2019-05-29 11:14:08,293] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-29 11:23:05,160] - logger.py] - INFO: ----------test is start----------
+[2019-05-29 11:23:05,180] - logger.py] - INFO: 请求的接口为: http://api01.oriental-game.com:8085/game-providers/34/balance
+[2019-05-29 11:23:05,186] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'balance': 1, 'action': 'out'}, 'headers': {'Content-Type': 'application/json', 'x-token': 'BinGL8AwxUUHFOQb2oYy9PXkPKAfjyFMycdrllM4ZPyLEtnznCuFztPrARzk65gnSTB4w5PJJ8wEkXRoj8WYrtgjU3dcdUK3tnap'}}
+[2019-05-29 11:23:05,192] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"balance":"2.00"}}
+[2019-05-29 11:23:05,197] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-29 11:23:05,208] - logger.py] - INFO: ----------test is pass----------
+[2019-05-29 11:23:05,215] - logger.py] - INFO: ----------test is end----------
+[2019-05-29 11:27:01,169] - logger.py] - INFO: ----------test is start----------
+[2019-05-29 11:27:01,188] - logger.py] - INFO: 请求的接口为: http://api01.oriental-game.com:8085/game-providers/34/balance
+[2019-05-29 11:27:01,206] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'balance': 1, 'action': 'out'}, 'headers': {'Content-Type': 'application/json', 'x-token': 'r5szvK33fw9ZNnJN2U69kFiEghm3sqJ79ZbNBJq8ByIJNLxSg5VofYAsSCPl2URcwbCHL2g2WTvRZZISiLXs2bknMGNXwnoTCoA3'}}
+[2019-05-29 11:27:01,224] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"balance":"1.00"}}
+[2019-05-29 11:27:01,236] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-29 11:27:01,242] - logger.py] - INFO: ----------test is pass----------
+[2019-05-29 11:27:01,248] - logger.py] - INFO: ----------test is end----------
+[2019-05-29 12:28:17,663] - logger.py] - INFO: ----------test is start----------
+[2019-05-29 12:28:17,727] - logger.py] - INFO: 请求的接口为: http://api01.oriental-game.com:8085/game-providers/34/balance
+[2019-05-29 12:28:17,738] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'balance': 1, 'action': 'in'}, 'headers': {'Content-Type': 'application/json', 'x-token': 'EyGPGD6wGNmnqQD9NcFtLetpJ9ISKB6jpsy47WgkEETTunsGK9LxgS60mw0WXGg6eBjG1fV9cH0ifYaa0jTFSQKIT2a0eGJWm4Gi'}}
+[2019-05-29 12:28:17,762] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"balance":2}}
+[2019-05-29 12:28:17,766] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-29 12:28:17,772] - logger.py] - INFO: ----------test is pass----------
+[2019-05-29 12:28:17,778] - logger.py] - INFO: ----------test is end----------
+[2019-05-29 12:38:17,239] - logger.py] - INFO: ----------test is start----------
+[2019-05-29 12:38:17,290] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/game-providers/34/play
+[2019-05-29 12:38:17,304] - logger.py] - INFO: 请求的参数为: {'params': {'key': '67a17dd934c01fffcf1190370e4ecec60fc12b779817f8818a966a9d0f5941be7c0c1252b64b40ad7cb45e9a9770e763b50fa1f490b99564f18f9672428ce605a4316b6393d06d6affc26611'}, 'headers': {'x-token': '9laCXZD1bpIJYbqYJN2PSlwaGEojm8SUIhulUa22rbzufH7pblev9aXPtbyRJOZN87ZGHsq2aCQ35k9z2QHVMojda92z9aZOaWEe'}}
+[2019-05-29 12:38:17,310] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"url":"https://demoh5.happy968.com/index.html?account=70312_SEQC_MARSQC&token=eyJkYXRhIjoiNzAzMTJfU0VRQ19NQVJTUUMiLCJjcmVhdGVkIjoxNTU5MTA1MjMxLCJleHAiOjE1MH0=.3Jb0JZ36tk4wg1ukdbVRJ+zDKpsfSdBBYFbnnawEZRo=&lang=en_us&gameId=0"}}
+[2019-05-29 12:38:17,315] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-29 12:38:17,319] - logger.py] - INFO: ----------test is pass----------
+[2019-05-29 12:38:17,324] - logger.py] - INFO: ----------test is end----------
+[2019-05-29 13:24:45,292] - logger.py] - INFO: ----------test is start----------
+[2019-05-29 13:24:45,329] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/game-providers/34/play?key=67a17dd934c01fffcf1190370e4ecec60fc12b779817f8818a966a9d0f5941be7c0c1252b64b40a97fb45b9e9770e763b50fa1f490b99564f18f9672428ce605a4316b6393d06d6affc26611
+[2019-05-29 13:24:45,338] - logger.py] - INFO: 请求的参数为: <PreparedRequest [GET]>
+[2019-05-29 13:24:45,347] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"url":"https://demoh5.happy968.com/index.html?account=70312_SEQC_MARSQC&token=eyJkYXRhIjoiNzAzMTJfU0VRQ19NQVJTUUMiLCJjcmVhdGVkIjoxNTU5MTA3NDg1LCJleHAiOjE1MH0=.yR7r1edLsuZ6hbyEbUNlKBa+NDTXgvbnr5YgdPQfW7w=&lang=en_us&gameId=0"}}
+[2019-05-29 13:24:45,359] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-29 13:24:45,363] - logger.py] - INFO: ----------test is pass----------
+[2019-05-29 13:24:45,368] - logger.py] - INFO: ----------test is end----------
+[2019-05-29 13:26:02,586] - logger.py] - INFO: ----------test is start----------
+[2019-05-29 13:26:02,608] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/game-providers/34/play
+[2019-05-29 13:26:02,614] - logger.py] - INFO: 请求的参数为: {'params': {'key': '67a17dd934c01fffcf1190370e4ecec60fc12b779817f8818a966a9d0f5941be7c0c1252b64b40a97db45f9a9770e763b50fa1f490b99564f18f9672428ce605a4316b6393d06d6affc26611'}, 'headers': {'x-token': 'kcvlb6TfgoV12vlMMY5geaY0WGGc3AaKV0uTbBMdfh2WxUfa4mkxWL5ycmY0F64UDw92GQetdcBwWVSGtoyxz6C8IXuHbXetKEel'}}
+[2019-05-29 13:26:02,621] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"url":"https://demoh5.happy968.com/index.html?account=70312_SEQC_MARSQC&token=eyJkYXRhIjoiNzAzMTJfU0VRQ19NQVJTUUMiLCJjcmVhdGVkIjoxNTU5MTA3NTYyLCJleHAiOjE1MH0=.990sXkSw/pj+ExHWWRMvr2thtmOzobY7RVRlvf+FZ8Q=&lang=en_us&gameId=0"}}
+[2019-05-29 13:26:02,627] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-29 13:26:02,633] - logger.py] - INFO: ----------test is pass----------
+[2019-05-29 13:26:02,639] - logger.py] - INFO: ----------test is end----------
+[2019-05-29 13:37:43,248] - logger.py] - INFO: ----------test is start----------
+[2019-05-29 13:37:43,284] - logger.py] - INFO: 跳转连接为：http://api01.oriental-game.com:8085/game-providers/34/play?key=67a17dd934c01fffcf1190370e4ecec60fc12b779817f8818a966a9d0f5941be7c0c1252b64840ac7cb45b9a9770e763b50fa1f490b99564f18f9672428ce605a4316b6393d06d6affc26611
+[2019-05-29 13:37:43,288] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-29 13:37:43,291] - logger.py] - INFO: ----------test is pass----------
+[2019-05-29 13:37:43,296] - logger.py] - INFO: ----------test is end----------
+[2019-05-29 14:19:39,323] - logger.py] - ERROR: get请求错误: 'str' object has no attribute 'items'
+[2019-05-29 14:20:14,079] - logger.py] - ERROR: get请求错误: 'str' object has no attribute 'items'
+[2019-05-29 14:20:37,586] - logger.py] - ERROR: get请求错误: 'str' object has no attribute 'items'
+[2019-05-29 14:21:17,079] - logger.py] - ERROR: get请求错误: 'str' object has no attribute 'items'

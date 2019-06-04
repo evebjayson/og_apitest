@@ -1,0 +1,220 @@
+[2019-05-30 10:14:01,537] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 10:14:01,553] - logger.py] - INFO: 跳转连接为：http://api01.oriental-game.com:8085/game-providers/34/play?key=67a17dd934c01fffcf1190370e4ecec60fc12b779817f8818a966a9d0f5941be7c0d1b52b64c40a878b45a9d9770e763b50fa1f490b99564f18f9672428ce605a4316b6393d06d6affc26611
+[2019-05-30 10:14:01,564] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 10:14:01,580] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 10:14:01,584] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 10:17:12,302] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 10:17:12,308] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/game-providers/34/play
+[2019-05-30 10:17:12,328] - logger.py] - INFO: 请求的参数为: {'params': {'key': '67a17dd934c01fffcf1190370e4ecec60fc12b779817f8818a966a9d0f5941be7c0d1b52b64c40a87cb45f929770e763b50fa1f490b99564f18f9672428ce605a4316b6393d06d6affc26611'}, 'headers': {'x-token': 'xfNiidAhfi0EDJMbpogygbghS34S6ts8s0pkEglEvxOWTFB9Z7Waci8Jkft1xvGWZ2NQdz4QWodIs38oe0DzCMnLbiS7hHeES6qQ'}}
+[2019-05-30 10:17:12,336] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"url":"https://demoh5.happy968.com/index.html?account=70312_SEQC_MARSQC&token=eyJkYXRhIjoiNzAzMTJfU0VRQ19NQVJTUUMiLCJjcmVhdGVkIjoxNTU5MTgyNjMwLCJleHAiOjE1MH0=.YY4H14JPzjskVgh+E8f3MsKGjqN+6phhsGfUbl5zrh4=&lang=en_us&gameId=0"}}
+[2019-05-30 10:17:12,341] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 10:17:12,345] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 10:17:12,349] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 10:27:46,171] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 10:27:46,187] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/register
+[2019-05-30 10:27:46,197] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'country': 'China', 'fullname': 'marsqc', 'language': 'en', 'birthdate': '1990-02-01', 'email': '112211@qq.com'}, 'headers': {'x-token': '96otFVO4hsCQ6XAiqjQre7rZXSFpk9sUXp419IJXET0vr3qzBxak7FLk2oepSK5ZvuLZu6HGLs9Roe9Y9oGCZnZxiINeKhklaKod'}}
+[2019-05-30 10:27:46,208] - logger.py] - INFO: 响应内容为: {"status":"success","data":{}}
+[2019-05-30 10:27:46,224] - logger.py] - INFO: 响应状态码为: 201
+[2019-05-30 10:27:46,236] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 10:27:46,241] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 10:29:29,326] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 10:29:29,337] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/register
+[2019-05-30 10:29:29,353] - logger.py] - INFO: 请求的参数为: {'json': '{"username": "marsqc",\n  "country": "China",\n  "fullname": "marsqc",\n  "language": "en",\n  "birthdate": "1990-02-01",\n  "email": "112211@qq.com"\n  }', 'headers': {'x-token': 'LPBenuhgsEpkJqnTFVNhk1dwY8rXsyZi2KjBNbncrJACSUutoFuCbUfIFV3Lep6FLGNfgknZa7jxne2r8vs6vsgJdDYEJl9cks8r'}}
+[2019-05-30 10:29:29,361] - logger.py] - INFO: 响应内容为: Unable to parse HTTP body- error occurred :: 'SyntaxError: Unexpected token "\n    at parse (/home/marsdev/middleware/node_modules/skipper/node_modules/body-parser/lib/types/json.js:83:15)\n    at /home/marsdev/middleware/node_modules/skipper/node_modules/body-parser/lib/read.js:116:18\n    at invokeCallback (/home/marsdev/middleware/node_modules/skipper/node_modules/raw-body/index.js:262:16)\n    at done (/home/marsdev/middleware/node_modules/skipper/node_modules/raw-body/index.js:251:7)\n    at IncomingMessage.onEnd (/home/marsdev/middleware/node_modules/skipper/node_modules/raw-body/index.js:307:7)\n    at emitNone (events.js:86:13)\n    at IncomingMessage.emit (events.js:185:7)\n    at endReadableNT (_stream_readable.js:974:12)\n    at _combinedTickCallback (internal/process/next_tick.js:80:11)\n    at process._tickDomainCallback (internal/process/next_tick.js:128:9)'
+[2019-05-30 10:29:29,370] - logger.py] - INFO: 响应状态码为: 400
+[2019-05-30 10:29:51,213] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 10:29:51,219] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/register
+[2019-05-30 10:29:51,228] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'country': 'China', 'fullname': 'marsqc', 'language': 'en', 'birthdate': '1990-02-01', 'email': '112211@qq.com'}, 'headers': {'x-token': '2LcADZa4VLHaND4ijKeJIUkiLTAReRGjqI547HLQuwMKIWvHjcCmqglJyVDm7cojE16OOOIXYIhzXOAEwFFW73x6rmY7urLCTqYp'}}
+[2019-05-30 10:29:51,234] - logger.py] - INFO: 响应内容为: {"status":"success","data":{}}
+[2019-05-30 10:29:51,243] - logger.py] - INFO: 响应状态码为: 201
+[2019-05-30 10:29:51,249] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 10:29:51,253] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 10:33:24,002] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 10:33:24,008] - logger.py] - INFO: 请求的接口为: http://api01.oriental-game.com:8085/game-providers/34/balance
+[2019-05-30 10:33:24,017] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'balance': 1, 'action': 'in'}, 'headers': {'x-token': 'qbnql1ibAAacbfmAYkABl2idpDR7g7sa7mQxL1XPladHM1nG7pisi42FnlU73ninhY0rmiTmJIEhHF42o1MJjVyFdUO1SNQWhgvc'}}
+[2019-05-30 10:33:24,026] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"balance":3}}
+[2019-05-30 10:33:24,030] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 10:33:24,035] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 10:33:24,039] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 10:36:48,141] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 10:36:48,147] - logger.py] - INFO: 请求的接口为: http://api01.oriental-game.com:8085/game-providers/34/balance
+[2019-05-30 10:36:48,157] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'balance': 1, 'action': 'out'}, 'headers': {'x-token': 'WL4H85oYfzRBA76V3ekVdCanu1vTCHvV2VzYTbegDwE0QB9quqqZv4aDjczvGKXqkckLFcsU8Wl6HieLbhHiCq4ZI2NXQ09IZtau'}}
+[2019-05-30 10:36:48,162] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"balance":"2.00"}}
+[2019-05-30 10:36:48,166] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 10:36:48,174] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 10:36:48,179] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 10:49:25,233] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 10:49:25,241] - logger.py] - INFO: 请求接口为: http://api01.oriental-game.com:8085/game-providers
+[2019-05-30 10:49:25,249] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 10:50:01,005] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 10:50:01,025] - logger.py] - INFO: 请求接口为: http://api01.oriental-game.com:8085/game-providers
+[2019-05-30 10:50:01,029] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 10:50:28,563] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 10:50:28,575] - logger.py] - INFO: 请求接口为: http://api01.oriental-game.com:8085/game-providers
+[2019-05-30 10:50:28,579] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 10:50:28,585] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 10:50:28,592] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 11:04:45,348] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 11:04:45,390] - logger.py] - INFO: 跳转连接为：http://api01.oriental-game.com:8085/game-providers/34/play?key=67a17dd934c01fffcf1190370e4ecec60fc12b779817f8818a966a9d0f5941be7c0d1b52b64d40af7fb45b989770e763b50fa1f490b99564f18f9672428ce605a4316b6393d06d6affc26611
+[2019-05-30 11:04:45,395] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 11:04:45,401] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 11:04:45,407] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 11:04:46,980] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 11:04:46,989] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/game-providers/34/balance
+[2019-05-30 11:04:46,998] - logger.py] - INFO: 请求的参数为: {'params': {'username': 'marsqc01'}, 'headers': {'Content-Type': 'application/json', 'x-token': 'oiKMaxvFo3LX97qB3pIqRKb2btgxkKKryVJuE4WG3jdD01Sp9IznFhCYEj6lOv050G2ZfZ2XbeAWPwlPM5JBsZQxnHf3LwR0gpNy'}}
+[2019-05-30 11:04:47,001] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"balance":0}}
+[2019-05-30 11:04:47,009] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 11:04:47,012] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 11:04:47,025] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 11:04:47,736] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 11:04:47,742] - logger.py] - INFO: 请求接口为: http://api01.oriental-game.com:8085/game-providers
+[2019-05-30 11:04:47,747] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 11:04:47,751] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 11:04:47,762] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 11:04:52,605] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 11:04:52,656] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/game-providers/34/play
+[2019-05-30 11:04:52,661] - logger.py] - INFO: 请求的参数为: {'params': {'key': '67a17dd934c01fffcf1190370e4ecec60fc12b779817f8818a966a9d0f5941be7c0d1b52b64d40af7fb45b929770e763b50fa1f490b99564f18f9672428ce605a4316b6393d06d6affc26611'}, 'headers': {'x-token': 'bVaaDAeClkritlzKZaCBCqKOwcAHpg4ZBDY74sNKXrdos3rxlPwgdw9IgjNXxBGEeAcdmakrOLwffYMsht0cEleJvnu08DfFsHb0'}}
+[2019-05-30 11:04:52,671] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"url":"https://demoh5.happy968.com/index.html?account=70312_SEQC_MARSQC&token=eyJkYXRhIjoiNzAzMTJfU0VRQ19NQVJTUUMiLCJjcmVhdGVkIjoxNTU5MTg1NDkxLCJleHAiOjE1MH0=.FzFkK1FBpOa/AnCc2qgKOwn7wXtUvsTACeGAbb7yI2s=&lang=en_us&gameId=0"}}
+[2019-05-30 11:04:52,677] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 11:04:52,681] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 11:04:52,690] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 11:04:54,827] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 11:04:54,831] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/register
+[2019-05-30 11:04:54,837] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'country': 'China', 'fullname': 'marsqc', 'language': 'en', 'birthdate': '1990-02-01', 'email': '112211@qq.com'}, 'headers': {'x-token': 'V5ue5ULfPMYwORi3He5XvxP7Rn8MYOg33Ji9uUPqzGNFv5A5H2MHBObU3TJc1W9KC55CLCdXfOXQ4K29v8KDgPGkaITzSLKmyq1c'}}
+[2019-05-30 11:04:54,843] - logger.py] - INFO: 响应内容为: {"status":"success","data":{}}
+[2019-05-30 11:04:54,866] - logger.py] - INFO: 响应状态码为: 201
+[2019-05-30 11:04:54,874] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 11:04:54,879] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 11:04:56,347] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 11:04:56,355] - logger.py] - INFO: 请求的接口为: http://api01.oriental-game.com:8085/game-providers/34/balance
+[2019-05-30 11:04:56,359] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'balance': 1, 'action': 'in'}, 'headers': {'x-token': '058TS5yz1gQdo9RpKtm9CnSVhsE3yeqbwnmykwtB7uU4H1E3bHxsBs47AsLmLR0gOouxbw3nY3YZ9sTh4cfFTfejqWFpAVLfSmbW'}}
+[2019-05-30 11:04:56,363] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"balance":3}}
+[2019-05-30 11:04:56,366] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 11:04:56,375] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 11:04:56,379] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 11:04:58,102] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 11:04:58,110] - logger.py] - INFO: 请求的接口为: http://api01.oriental-game.com:8085/game-providers/34/balance
+[2019-05-30 11:04:58,115] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'balance': 1, 'action': 'out'}, 'headers': {'x-token': 'f17FT9SiZCZfYqLvMHAyl8hfuN78UVTuskSlnnQfuLJFfWXhYWBZZgoC2ZQKuqtfqVkL6MiVGIpC4BkZ9h6mdvRwOgVpzVyvRKXh'}}
+[2019-05-30 11:04:58,123] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"balance":"2.00"}}
+[2019-05-30 11:04:58,127] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 11:04:58,131] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 11:04:58,141] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 11:07:47,841] - logger.py] - INFO: --------test is start--------
+[2019-05-30 11:07:47,849] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"token":"EqUR66GfPO0o19taYxc5Ytbd1D0ClxqbZcYnfgkMrQMSGauuiJroACkXyPKXY1FHF1xfCBXtb0Dt8aP6Z10BUA8CIb5Z9ubYOGRv"}}
+[2019-05-30 11:07:47,856] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 11:07:47,861] - logger.py] - INFO: ---------test is pass---------
+[2019-05-30 11:07:47,870] - logger.py] - INFO: ---------end---------
+[2019-05-30 11:08:00,985] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 11:08:00,992] - logger.py] - INFO: 跳转连接为：http://api01.oriental-game.com:8085/game-providers/34/play?key=67a17dd934c01fffcf1190370e4ecec60fc12b779817f8818a966a9d0f5941be7c0d1b52b64d40af7cb45a9d9770e763b50fa1f490b99564f18f9672428ce605a4316b6393d06d6affc26611
+[2019-05-30 11:08:01,000] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 11:08:01,003] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 11:08:01,007] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 11:08:02,681] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 11:08:02,689] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/game-providers/34/balance
+[2019-05-30 11:08:02,700] - logger.py] - INFO: 请求的参数为: {'params': {'username': 'marsqc01'}, 'headers': {'Content-Type': 'application/json', 'x-token': 'b6naN6ARRfeBh0WHUIN7rrhD2mKfdNLp2U34CLCAqz7iE81Z0PVeEIW4ZEsxHtljr2FcqlY2CDWXaP6bCiFdiEduQjqTCh7xA8uR'}}
+[2019-05-30 11:08:02,706] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"balance":0}}
+[2019-05-30 11:08:02,716] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 11:08:02,720] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 11:08:02,724] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 11:08:03,414] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 11:08:03,417] - logger.py] - INFO: 请求接口为: http://api01.oriental-game.com:8085/game-providers
+[2019-05-30 11:08:03,421] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 11:08:03,425] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 11:08:03,435] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 11:08:03,991] - logger.py] - INFO: --------test is start--------
+[2019-05-30 11:08:04,000] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"token":"6czDsk0c6YkX62QYtrXqz5OzYyYwCE0ENWbuklEmimY2IqkWao36uLcrz9CFChw9xWV5Jx4nRlTP1eb3kVvK1gJ4cqUgzP1Zsr0c"}}
+[2019-05-30 11:08:04,004] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 11:08:04,017] - logger.py] - INFO: ---------test is pass---------
+[2019-05-30 11:08:04,033] - logger.py] - INFO: ---------end---------
+[2019-05-30 11:08:07,336] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 11:08:07,340] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/game-providers/34/play
+[2019-05-30 11:08:07,347] - logger.py] - INFO: 请求的参数为: {'params': {'key': '67a17dd934c01fffcf1190370e4ecec60fc12b779817f8818a966a9d0f5941be7c0d1b52b64d40af73b45f9e9770e763b50fa1f490b99564f18f9672428ce605a4316b6393d06d6affc26611'}, 'headers': {'x-token': 'Y2vdRvXO09sEtLDscA5KeRsMMvKVBXDNfuvVKjWFm2n0P3LphazbB481XCEn2BkM0M1PnXtBXp4q3E32EWbJsNLD3IwjyS5URVDW'}}
+[2019-05-30 11:08:07,358] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"url":"https://demoh5.happy968.com/index.html?account=70312_SEQC_MARSQC&token=eyJkYXRhIjoiNzAzMTJfU0VRQ19NQVJTUUMiLCJjcmVhdGVkIjoxNTU5MTg1Njg2LCJleHAiOjE1MH0=.jQ/zuVodcjnD68WtMoUxajHXoLhgn4UtYAovblvyYqA=&lang=en_us&gameId=0"}}
+[2019-05-30 11:08:07,368] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 11:08:07,372] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 11:08:07,376] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 11:08:09,879] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 11:08:09,884] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/register
+[2019-05-30 11:08:09,890] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'country': 'China', 'fullname': 'marsqc', 'language': 'en', 'birthdate': '1990-02-01', 'email': '112211@qq.com'}, 'headers': {'x-token': 'kvvfQMQdzPhYtt2iSeZClwqatBLXxfTLfQoe2PxK9p3j44egX3BRFSZ4YmS0Q3ukN37zPISuxRMD19MKEfTRwsPPffxPKZbcFCiW'}}
+[2019-05-30 11:08:09,900] - logger.py] - INFO: 响应内容为: {"status":"success","data":{}}
+[2019-05-30 11:08:09,905] - logger.py] - INFO: 响应状态码为: 201
+[2019-05-30 11:08:09,909] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 11:08:09,917] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 11:08:12,100] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 11:08:12,106] - logger.py] - INFO: 请求的接口为: http://api01.oriental-game.com:8085/game-providers/34/balance
+[2019-05-30 11:08:12,113] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'balance': 1, 'action': 'in'}, 'headers': {'x-token': 'gQ8pciSIpsW7pDKmoTsgAxGi0Pulmpl0EVB3js3FLtzaIj0f3cij4iQbtQ874qostWbkxcEtYRSdSUkTuHNpR9ltgglF8jAD22Jp'}}
+[2019-05-30 11:08:12,119] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"balance":3}}
+[2019-05-30 11:08:12,123] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 11:08:12,127] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 11:08:12,133] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 11:08:13,601] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 11:08:13,608] - logger.py] - INFO: 请求的接口为: http://api01.oriental-game.com:8085/game-providers/34/balance
+[2019-05-30 11:08:13,617] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'balance': 1, 'action': 'out'}, 'headers': {'x-token': 'lH6gA6UbeAOUw10fl5fPwOJeBwb0Ph4aEu1TJudrN70WeUuafhKHUQlVFAAWT119HYWbj7eMstZmfMbEMwaLHnEUq9FT7DPTd3tA'}}
+[2019-05-30 11:08:13,621] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"balance":"2.00"}}
+[2019-05-30 11:08:13,624] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 11:08:13,631] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 11:08:13,635] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 13:03:23,751] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 13:03:23,828] - logger.py] - INFO: 跳转连接为：http://api01.oriental-game.com:8085/game-providers/34/play?key=67a17dd934c01fffcf1190370e4ecec60fc12b779817f8818a966a9d0f5941be7c0d1b52b64b40af78b45d9a9770e763b50fa1f490b99564f18f9672428ce605a4316b6393d06d6affc26611
+[2019-05-30 13:03:23,832] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 13:03:23,837] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 13:03:23,845] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 13:03:27,230] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 13:03:27,278] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/game-providers/34/balance
+[2019-05-30 13:03:27,285] - logger.py] - INFO: 请求的参数为: {'params': {'username': 'marsqc01'}, 'headers': {'Content-Type': 'application/json', 'x-token': 'iwfCigHpL2iCyodTBPvZKgyvvcwGjOlwOd4DeNYe5xOLzdPgrnDMc1l3V7A2kjyLWcEfhVHty5ErBgnJsvWkEN4ER1NYpgespt76'}}
+[2019-05-30 13:03:27,292] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"balance":0}}
+[2019-05-30 13:03:27,298] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 13:03:27,302] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 13:03:27,308] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 13:03:27,996] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 13:03:28,002] - logger.py] - INFO: 请求接口为: http://api01.oriental-game.com:8085/game-providers
+[2019-05-30 13:03:28,006] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 13:03:28,014] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 13:03:28,019] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 13:03:28,588] - logger.py] - INFO: --------test is start--------
+[2019-05-30 13:03:28,600] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"token":"em75ubNwOwKswFbOqLqtYy3isbnsgP8T5LQdaGODUgTxehe0gy3NJrv5BW2qr2DrlS8MdY0TnFrRkcTJJBsgBFivqYT9wDbCdNxA"}}
+[2019-05-30 13:03:28,607] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 13:03:28,612] - logger.py] - INFO: ---------test is pass---------
+[2019-05-30 13:03:28,616] - logger.py] - INFO: ---------end---------
+[2019-05-30 13:03:32,392] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 13:03:32,448] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/game-providers/34/play
+[2019-05-30 13:03:32,453] - logger.py] - INFO: 请求的参数为: {'params': {'key': '67a17dd934c01fffcf1190370e4ecec60fc12b779817f8818a966a9d0f5941be7c0d1b52b64b40af78b45d939770e763b50fa1f490b99564f18f9672428ce605a4316b6393d06d6affc26611'}, 'headers': {'x-token': 'PnC0AanFEVuBt1J0Lt8i9PEJOJNVI6Xr5dRJfWPRs9xHMUdbkGGsnRcTJklDLQoGHhJGwuanSSILr5bLU89DBpupB3lPvPOrvqus'}}
+[2019-05-30 13:03:32,462] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"url":"https://demoh5.happy968.com/index.html?account=70312_SEQC_MARSQC&token=eyJkYXRhIjoiNzAzMTJfU0VRQ19NQVJTUUMiLCJjcmVhdGVkIjoxNTU5MTkyNjExLCJleHAiOjE1MH0=.b+0tY1l4j9tg0A30T/U57T6Kqt623wvDpPSwQqMDvyI=&lang=en_us&gameId=0"}}
+[2019-05-30 13:03:32,465] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 13:03:32,469] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 13:03:32,477] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 13:03:33,834] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 13:03:33,882] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/register
+[2019-05-30 13:03:33,888] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'country': 'China', 'fullname': 'marsqc', 'language': 'en', 'birthdate': '1990-02-01', 'email': '112211@qq.com'}, 'headers': {'x-token': '4HVqUzwqDTNVBuU9Jr2MdJ7CjVDZzW96mpNbLfLtHFFZhRnF1DCdmyZx6X1ESF0Q4MKnVPkr1vER6Hdnp8ydnNSN4Eemvd248Baf'}}
+[2019-05-30 13:03:33,900] - logger.py] - INFO: 响应内容为: {"status":"success","data":{}}
+[2019-05-30 13:03:33,929] - logger.py] - INFO: 响应状态码为: 201
+[2019-05-30 13:03:33,933] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 13:03:33,961] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 13:03:35,503] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 13:03:35,542] - logger.py] - INFO: 请求的接口为: http://api01.oriental-game.com:8085/game-providers/34/balance
+[2019-05-30 13:03:35,546] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'balance': 1, 'action': 'in'}, 'headers': {'x-token': 'V8Tl9Gps1DYN9Jd0MoTCAOxdOfKJpekoZvAu2tF37cJyD6p4DbRgPmI40sFax8HHfrVJnlBrzLYqRvHFviAVzuGDYS2gn7JHOrKB'}}
+[2019-05-30 13:03:35,549] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"balance":3}}
+[2019-05-30 13:03:35,559] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 13:03:35,563] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 13:03:35,568] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 13:03:37,571] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 13:03:37,666] - logger.py] - INFO: 请求的接口为: http://api01.oriental-game.com:8085/game-providers/34/balance
+[2019-05-30 13:03:37,680] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'balance': 1, 'action': 'out'}, 'headers': {'x-token': 'vzFIgcMNxpRweLpeUWbtaCvYbOqfJEm9FIdMEf7druMeApQEbJeWHiMQk79RBicSQfIpDqJIGf9fUTXmMSOiEFZ8yspAOA12FLpW'}}
+[2019-05-30 13:03:37,692] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"balance":"2.00"}}
+[2019-05-30 13:03:37,698] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 13:03:37,717] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 13:03:37,726] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 15:48:50,978] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 15:48:51,043] - logger.py] - INFO: 请求的接口为: http://api01.oriental-game.com:8085/game-providers/34/balance
+[2019-05-30 15:48:51,048] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'balance': 100, 'action': 'in'}, 'headers': {'x-token': 'IHtXVEMxgVeffu2esuuQlcHvBXsiGaYCVtcAvEoBTl850NdfIjfEiWzbnYAcwswdJkmjGmfkRiasNlIwZAprQTUs9CYeGlFTS6Oz'}}
+[2019-05-30 15:48:51,056] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"balance":102}}
+[2019-05-30 15:48:51,062] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 15:48:51,067] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 15:48:51,072] - logger.py] - INFO: ----------test is end----------
+[2019-05-30 15:51:47,774] - logger.py] - INFO: ----------test is start----------
+[2019-05-30 15:51:47,782] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/game-providers/34/play
+[2019-05-30 15:51:47,787] - logger.py] - INFO: 请求的参数为: {'params': {'key': '67a17dd934c01fffcf1190370e4ecec60fc12b779817f8818a966a9d0f5941be7c0d1b52b64640ae7ab45b9f9770e763b50fa1f490b99564f18f9672428ce605a4316b6393d06d6affc26611'}, 'headers': {'x-token': '8tAdK8MXvo9zZhEDFFG4Z2zdWFtS1k6MCFlnENe9vAurpMeiEAPRkQI1I2K2ZuESZ8QO0QDyP33jRnRbDPi8ngNM2NyrXSUHd5q8'}}
+[2019-05-30 15:51:47,793] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"url":"https://demoh5.happy968.com/index.html?account=70312_SEQC_MARSQC&token=eyJkYXRhIjoiNzAzMTJfU0VRQ19NQVJTUUMiLCJjcmVhdGVkIjoxNTU5MjAyNzA3LCJleHAiOjE1MH0=.EGpauibwF7KGPKR4VRWpuvhwzMRClQ0dXIbUqpgKKHM=&lang=en_us&gameId=0"}}
+[2019-05-30 15:51:47,800] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-30 15:51:47,803] - logger.py] - INFO: ----------test is pass----------
+[2019-05-30 15:51:47,808] - logger.py] - INFO: ----------test is end----------

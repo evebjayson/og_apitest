@@ -1,0 +1,32 @@
+[2019-05-27 09:50:27,678] - logger.py] - INFO: --------test is start--------
+[2019-05-27 09:50:27,722] - logger.py] - INFO: 响应内容为: {"status":"success","data":{"token":"VhfI0f3myi94X9j7vODxeQfwtHb2cKtCF9x3yVgdFgIDQWrPZyg8gpnXU15smjdHRCbM6jI8LU0LB4OIjHVFaPXREaS4t4rAHnm1"}}
+[2019-05-27 09:50:53,448] - logger.py] - INFO: --------test is start--------
+[2019-05-27 09:50:53,455] - logger.py] - INFO: 响应内容为: <Response [200]>
+[2019-05-27 09:50:53,466] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-27 09:50:53,472] - logger.py] - INFO: ---------test is pass---------
+[2019-05-27 09:50:53,488] - logger.py] - INFO: ---------end---------
+[2019-05-27 09:59:54,960] - logger.py] - INFO: ----------test is start----------
+[2019-05-27 09:59:54,967] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/register
+[2019-05-27 09:59:55,030] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'country': 'China', 'fullname': 'marsqc', 'language': 'en', 'birthdate': '1990-02-01'}, 'headers': None}
+[2019-05-27 09:59:55,043] - logger.py] - INFO: 响应内容为: {"status":"error","data":{"message":"Failed to connect."},"meta":{"token":"invalid token."}}
+[2019-05-27 09:59:55,051] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-27 11:13:59,247] - logger.py] - INFO: ----------test is start----------
+[2019-05-27 11:13:59,267] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/register
+[2019-05-27 11:13:59,319] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'country': 'China', 'fullname': 'marsqc', 'language': 'en', 'birthdate': '1990-02-01'}, 'headers': None}
+[2019-05-27 11:13:59,327] - logger.py] - INFO: 响应内容为: {"status":"error","data":{"message":"Failed to connect."},"meta":{"token":"invalid token."}}
+[2019-05-27 11:13:59,331] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-27 11:15:33,013] - logger.py] - INFO: ----------test is start----------
+[2019-05-27 11:15:33,030] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/register
+[2019-05-27 11:15:33,040] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'country': 'China', 'fullname': 'marsqc', 'language': 'en', 'birthdate': '1990-02-01'}, 'headers': None}
+[2019-05-27 11:15:33,046] - logger.py] - INFO: 响应内容为: {"status":"error","data":{"message":"Failed to connect."},"meta":{"token":"invalid token."}}
+[2019-05-27 11:15:33,058] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-27 11:17:20,171] - logger.py] - INFO: ----------test is start----------
+[2019-05-27 11:17:20,363] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/register
+[2019-05-27 11:17:20,429] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'country': 'China', 'fullname': 'marsqc', 'language': 'en', 'birthdate': '1990-02-01'}, 'headers': None}
+[2019-05-27 11:17:20,449] - logger.py] - INFO: 响应内容为: {"status":"error","data":{"message":"Failed to connect."},"meta":{"token":"invalid token."}}
+[2019-05-27 11:17:20,470] - logger.py] - INFO: 响应状态码为: 200
+[2019-05-27 11:18:02,663] - logger.py] - INFO: ----------test is start----------
+[2019-05-27 11:18:02,879] - logger.py] - INFO: 请求的接口地址为: http://api01.oriental-game.com:8085/register
+[2019-05-27 11:18:02,960] - logger.py] - INFO: 请求的参数为: {'json': {'username': 'marsqc', 'country': 'China', 'fullname': 'marsqc', 'language': 'en', 'birthdate': '1990-02-01'}, 'headers': {'X-Operator': 'marsqc', 'X-Key': 'GM44ap2JrmQcmz8dPUwx', 'token': '1MU86p0gPdEEPEtGXuWO1XO6Kctw2aSllVHw1j8wVCbiFjgqVjvgBRDU5zmBuzhQOV7fCdoKNTNqScKaUH1D6I9mVsbaqpziQJII'}}
+[2019-05-27 11:18:02,984] - logger.py] - INFO: 响应内容为: {"status":"error","data":{"message":"Failed to connect."},"meta":{"token":"invalid token."}}
+[2019-05-27 11:18:02,993] - logger.py] - INFO: 响应状态码为: 200

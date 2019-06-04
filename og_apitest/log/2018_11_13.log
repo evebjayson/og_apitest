@@ -1,0 +1,39 @@
+[2018-11-13 16:11:21,448] - logger.py] - INFO: 响应的内容：{'code': True, 'message': 'ok'}
+[2018-11-13 16:11:21,449] - logger.py] - INFO: 返回的状态码：200
+[2018-11-13 16:11:21,450] - logger.py] - INFO: ---------start---------
+[2018-11-13 16:11:21,451] - logger.py] - INFO: ---------test is pass---------
+[2018-11-13 16:11:21,452] - logger.py] - INFO: ---------end---------
+[2018-11-13 16:11:21,667] - logger.py] - INFO: 响应的内容：{'timestamp': 1542096682887, 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/unity/AB/queryqueryBalance'}
+[2018-11-13 16:11:21,667] - logger.py] - INFO: 返回的状态码：404
+[2018-11-13 16:11:21,668] - logger.py] - INFO: -------------start------------
+[2018-11-13 16:11:22,287] - logger.py] - INFO: 响应的内容：{'code': False, 'message': '转账记录不存在'}
+[2018-11-13 16:11:22,287] - logger.py] - INFO: 返回的状态码：200
+[2018-11-13 16:11:22,288] - logger.py] - INFO: ---------start---------
+[2018-11-13 16:11:22,386] - logger.py] - INFO: 响应的内容：{'code': False, 'message': '线路不存在'}
+[2018-11-13 16:11:22,387] - logger.py] - INFO: 返回的状态码：200
+[2018-11-13 16:11:22,387] - logger.py] - INFO: ---------start---------
+[2018-11-13 16:11:22,998] - logger.py] - INFO: 响应的内容：{'code': True, 'message': '客户已存在'}
+[2018-11-13 16:11:22,999] - logger.py] - INFO: 返回的状态码：200
+[2018-11-13 16:11:23,000] - logger.py] - INFO: ---------start---------
+[2018-11-13 16:11:23,001] - logger.py] - INFO: ---------test is pass---------
+[2018-11-13 16:11:23,001] - logger.py] - INFO: ---------end---------
+[2018-11-13 16:11:23,613] - logger.py] - INFO: 响应的内容：{'code': True, 'message': 'https://www.allbetgame.net/?language=zh_CN&token=9b9a18575aa3&sessionId=501cb92806a94f40ba3fb1c65b35a2b3&loginType=2'}
+[2018-11-13 16:11:23,614] - logger.py] - INFO: 返回的状态码：200
+[2018-11-13 16:11:23,615] - logger.py] - INFO: ---------start---------
+[2018-11-13 16:11:23,616] - logger.py] - INFO: ---------test is pass---------
+[2018-11-13 16:11:23,616] - logger.py] - INFO: ---------end---------
+[2018-11-13 16:11:24,321] - logger.py] - INFO: 响应的内容：{'code': True, 'message': 'https://www.allbetgame.net/?language=zh_CN&token=9b9a18575aa3&sessionId=501cb92806a94f40ba3fb1c65b35a2b3&loginType=2'}
+[2018-11-13 16:11:24,322] - logger.py] - INFO: 返回的状态码：200
+[2018-11-13 16:11:24,323] - logger.py] - INFO: ---------start---------
+[2018-11-13 16:11:24,324] - logger.py] - INFO: ---------test is pass---------
+[2018-11-13 16:11:24,324] - logger.py] - INFO: ---------end---------
+[2018-11-13 16:11:24,941] - logger.py] - INFO: 响应的内容：{'code': True, 'message': 'https://www.allbetgame.net/?language=zh_CN&token=9b9a18575aa3&sessionId=501cb92806a94f40ba3fb1c65b35a2b3&loginType=2'}
+[2018-11-13 16:11:24,941] - logger.py] - INFO: 返回的状态码：200
+[2018-11-13 16:11:24,942] - logger.py] - INFO: ---------start---------
+[2018-11-13 16:11:24,943] - logger.py] - INFO: ---------test is pass---------
+[2018-11-13 16:11:24,943] - logger.py] - INFO: ---------end---------
+[2018-11-13 16:11:26,140] - logger.py] - INFO: 响应的内容：{'code': True, 'message': '0134219022769'}
+[2018-11-13 16:11:26,140] - logger.py] - INFO: 返回的状态码：200
+[2018-11-13 16:11:26,141] - logger.py] - INFO: ---------start---------
+[2018-11-13 16:11:26,142] - logger.py] - INFO: ---------test is pass---------
+[2018-11-13 16:11:26,143] - logger.py] - INFO: ---------end---------
