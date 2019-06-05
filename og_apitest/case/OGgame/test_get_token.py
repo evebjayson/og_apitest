@@ -1,11 +1,10 @@
 import unittest
-from common import logger
-from case.NWgame import get_res
+from common import logger, get_res
 from data.readexcel import ExcelUtil
 
 
 
-data = ExcelUtil("nwgame").dict_data()
+data = ExcelUtil("publicparameter").dict_data()
 class Token(unittest.TestCase):
     def setUp(self):
         self.log = logger.Log()

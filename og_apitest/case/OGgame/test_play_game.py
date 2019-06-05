@@ -1,10 +1,10 @@
 import unittest
-from common import base,logger
-from case.NWgame import get_res,get_key,get_gameurl
+from common import base, logger, get_res
+from case.NWgame import get_key,get_gameurl
 from data.readexcel import ExcelUtil
 
 
-data = ExcelUtil("nwgame").dict_data()
+data = ExcelUtil("oggame").dict_data()
 class PlayGame(unittest.TestCase):
     def setUp(self):
         self.log = logger.Log()
@@ -13,7 +13,7 @@ class PlayGame(unittest.TestCase):
 
     def test_play_game(self):
         '''获取游戏大厅url，进行跳转'''
-        route = data[5]["route"]
+        route = data[4]["route"]
         url = "".join(base.get_url(route))
         params = {"key":eval(get_key.GetKey().get_key().text)["data"]["key"]}
         headers = {"x-token":self.token}
@@ -24,7 +24,7 @@ class PlayGame(unittest.TestCase):
         self.log.info("请求的参数为: %s" % kwargs)
         self.log.info("响应内容为: %s" % resp.text)
         self.log.info("响应状态码为: %s" % resp.status_code)
-        self.assertIn(data[5]["expect"], resp.text, msg="失败原因为%s not in %s" % (data[5]["expect"], resp.text))
+        self.assertIn(data[4]["expect"], resp.text, msg="失败原因为%s not in %s" % (data[4]["expect"], resp.text))
         self.log.info("----------test is pass----------")
         self.log.info("----------test is end----------")
 

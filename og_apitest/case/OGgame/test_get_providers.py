@@ -1,4 +1,4 @@
-from case.NWgame import get_gameid
+from case.NWgame import get_providers
 from data.readexcel import ExcelUtil
 from common import logger
 import unittest
@@ -11,7 +11,7 @@ class GameID(unittest.TestCase):
         self.log = logger.Log()
     def test_get_gameid(self):
         '''测试获取gameid是否正确'''
-        resp = get_gameid.GetGameID().get_gameid()
+        resp = get_providers.GetGameID().get_gameid()
         self.log.info("----------test is start----------")
         self.log.info("请求接口为: %s" %resp.url)
         self.log.info("响应状态码为: %s" %resp.status_code)
