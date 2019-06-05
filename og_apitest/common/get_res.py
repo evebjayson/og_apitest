@@ -1,9 +1,8 @@
-from common import base,cof
+from common import base
 from data.readexcel import ExcelUtil
 
 
-
-data = ExcelUtil("nwgame").dict_data()
+data = ExcelUtil("publicparameter").dict_data()
 class GetRes(object):
 
     def get_res(self):
@@ -15,8 +14,6 @@ class GetRes(object):
         kwargs = {"headers": headers}
         res = base.get_response(url, Method, **kwargs)
         return res
-
-
 
 
 
